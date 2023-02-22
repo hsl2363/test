@@ -1,14 +1,12 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class De {
-
-    public static void main(String args[]) {
-
-        Scanner I = new Scanner(System.in);
-        int a = I.nextInt(), b = I.nextInt();
+    public static void main(String[] args) {
+        Scanner Input = new Scanner(System.in);
+        int a = Input.nextInt();
+        int b = Input.nextInt();
         int c = a + b;
         System.out.println(c);
-        I.close();
+        Input.close();
     }
 }
-//XDD
